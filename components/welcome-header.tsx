@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button";
 
 export default function WelcomeHeader() {
   return (
-    <div className="bg-[#6F01D0] rounded-[4px] shadow-sm overflow-hidden h-[51px]">
+    <div className="bg-[#6F01D0] rounded-[4px] shadow-sm overflow-hidden lg:h-[51px]">
       <div className="flex items-center justify-between sm:items-center px-4 py-0 sm:p-6 h-full">
-        <div className="flex gap-6 items-center ">
+        <div className="flex gap-6 items-center lg:flex-row flex-col w-full">
           <h1 className="text-xl sm:text-2xl font-semibold text-white">
             Welcome Aboard, Blessing <span className="inline-block">👋</span>
           </h1>

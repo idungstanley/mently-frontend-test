@@ -13,15 +13,10 @@ import { data } from "@/constants";
 export default function UsersSection() {
 
 
-  const COLORS = [
-    "var(--color-chart-1)",
-    "var(--color-chart-2)",
-    "var(--color-chart-3)",
-    "var(--color-chart-4)",
-  ];
+  const COLORS = ["#62B2FD", "#9F97F7", "#FFB44F", "#F99BAB"];
 
   return (
-    <div className="bg-white rounded-lg shadow-sm overflow-hidden w-[329px]">
+    <div className="bg-white rounded-lg shadow-sm overflow-hidden lg:max-w-[329px] w-full">
       <div className="flex justify-between items-center p-4 border-b">
         <h2 className="font-semibold text-gray-700">Users</h2>
         <div className="flex items-center gap-2">

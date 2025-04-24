@@ -1,4 +1,3 @@
-import { MoreHorizontal, Eye } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -14,7 +13,7 @@ import { LuEllipsisVertical } from "react-icons/lu";
 
 export default function ProgramsSection() {
   return (
-    <div className="bg-white rounded-lg shadow-sm overflow-hidden max-w-[329px] w-full">
+    <div className="bg-white rounded-lg shadow-sm overflow-hidden lg:max-w-[329px] w-full">
       <div className="flex flex-col">
         <div className="flex justify-between items-center p-4">
           <div className="flex items-center gap-2">

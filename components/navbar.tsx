@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function NavbarHeader() {
   return (
-    <div className="bg-white shadow-sm overflow-hidden flex justify-end h-[82px]">
+    <div className="bg-white shadow-sm overflow-hidden lg:flex hidden justify-end h-[82px]">
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center p-4 sm:p-6 gap-4">
         <Image
           src="/images/notifications.png"
