@@ -36,7 +36,7 @@ export default function Sidebar({ open, setOpen }: SidebarProps) {
       {/* Sidebar */}
       <div
         className={cn(
-          "fixed inset-y-0 left-0 z-50 bg-[#340260] text-[#C2C2C2] transform transition-all duration-300 ease-in-out lg:translate-x-0 lg:static lg:inset-auto lg:z-auto",
+          "h-screen fixed overflow-y-auto scrollbar-hide inset-y-0 left-0 z-50 bg-[#340260] text-[#C2C2C2] transform transition-all duration-300 ease-in-out lg:translate-x-0 lg:static lg:inset-auto lg:z-auto",
           open ? "translate-x-0" : "-translate-x-full",
           collapsed ? "w-[70px]" : "w-[230px]"
         )}

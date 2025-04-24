@@ -81,8 +81,7 @@ export default function ManageWidgetModal({
       >
         <div className="flex flex-col h-full">
           {/* Header */}
-          <div className="flex items-center justify-between p-4 border-b">
-            <h2 className="text-xl text-purple-700 font-bold">Manage Widget</h2>
+          <div className="flex items-center justify-end p-4 border-b">
             <Button
               variant="ghost"
               size="icon"
@@ -95,6 +94,7 @@ export default function ManageWidgetModal({
 
           {/* Content */}
           <div className="flex-1 overflow-y-auto p-4">
+            <h2 className="text-[32px] text-purple-700 font-bold mb-4">Manage Widget</h2>
             <p className="text-sm text-gray-600 mb-6">
               Personalize your dashboard by managing widgets add, remove, or
               reorder them to fit your workflow.
